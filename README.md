@@ -1,4 +1,4 @@
-# freebook
+# freebook [![npm version][npm-image]][npm-url] [![npm downloads total][dt-image]][dt-url]
 Packpub free learning cli tool
 
 ## install
@@ -12,3 +12,10 @@ Packpub free learning cli tool
 ```
 
 ![cat](https://raw.githubusercontent.com/smtaydemir/freebook/master/intro.gif)
+
+
+[npm-image]: https://img.shields.io/npm/v/freebook.svg?style=flat-square
+[npm-url]: https://www.npmjs.com/package/freebook
+
+[dt-image]: https://img.shields.io/npm/dt/freebook.svg?style=flat-square
+[dt-url]: https://www.npmjs.com/package/freebook
