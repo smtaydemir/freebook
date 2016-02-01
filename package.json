@@ -1,0 +1,32 @@
+{
+  "name": "freebook",
+  "version": "1.0.0",
+  "description": "Packpub free learning cli tool",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "freebook": "./bin/freebook.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smtaydemir/freebook.git"
+  },
+  "keywords": [
+    "packtpub",
+    "freebook",
+    "cli"
+  ],
+  "author": "Samet Aydemir <sametaydemir@yandex.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/smtaydemir/freebook/issues"
+  },
+  "homepage": "https://github.com/smtaydemir/freebook#readme",
+  "dependencies": {
+    "colors": "^1.1.2",
+    "node-emoji": "^1.0.4",
+    "request": "^2.64.0"
+  }
+}
