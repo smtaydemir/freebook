@@ -16,8 +16,7 @@ $ [sudo] npm update -g freebook
 $ freebook
 ```
 
-![cat](https://raw.githubusercontent.com/smtaydemir/freebook/master/intro.gif)
-
+[![asciicast](https://asciinema.org/a/35785.png)](https://asciinema.org/a/35785)
 
 [npm-image]: https://img.shields.io/npm/v/freebook.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/freebook
