@@ -15,8 +15,12 @@ $ [sudo] npm update -g freebook
 ```bash 
 $ freebook
 ```
+[![asciicast](https://asciinema.org/a/90491.png)](https://asciinema.org/a/90491)
 
-[![asciicast](https://asciinema.org/a/35785.png)](https://asciinema.org/a/35785)
+## get daily mail with your server's cron
+```crontab
+0 7 * * * freebook | mail -s "Today's free book" mail@example.com >/dev/null 2>&1
+```
 
 [npm-image]: https://img.shields.io/npm/v/freebook.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/freebook

@@ -1,6 +1,6 @@
 {
   "name": "freebook",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Packpub free learning cli tool",
   "main": "index.js",
   "scripts": {
@@ -19,12 +19,16 @@
     "cli"
   ],
   "author": "Samet Aydemir <sametaydemir@yandex.com>",
+  "contributors": [
+    "Uğur Erkan <mail@ugurerkan.com>"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/smtaydemir/freebook/issues"
   },
   "homepage": "https://github.com/smtaydemir/freebook#readme",
   "dependencies": {
+    "cheerio": "^0.22.0",
     "colors": "^1.1.2",
     "node-emoji": "^1.0.4",
     "request": "^2.64.0"
