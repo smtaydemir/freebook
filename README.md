@@ -22,6 +22,10 @@ $ freebook
 0 7 * * * freebook | mail -s "Today's free book" mail@example.com >/dev/null 2>&1
 ```
 
+## contributors
+* [Samet Aydemir](https://github.com/smtaydemir)
+* [Uğur Erkan](https://github.com/ugurerkan)
+
 [npm-image]: https://img.shields.io/npm/v/freebook.svg?style=flat-square
 [npm-url]: https://www.npmjs.com/package/freebook
 
