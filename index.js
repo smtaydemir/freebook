@@ -21,13 +21,12 @@ request('https://packtpub.com/packt/offers/free-learning', function (error, resp
   var title       = $('.dotd-title h2').text().trim();
   var desc        = $('.dotd-main-book-summary div').eq(2).text().trim() || 'N/A';
   var detailURL   = $('.dotd-main-book-image a').attr('href');
-  var claimURL    = $('a.twelve-days-claim').attr('href');
 
   console.log("\t");
   console.log(emoji.get('books')+ "  " +colors.red.bold(title));
   console.log(colors.white(desc));
   console.log("\t");
   console.log(colors.white('Details\t ') + colors.blue.underline(packpubDomain + detailURL));
-  console.log(colors.white('Claim\t ') + colors.blue.underline(packpubDomain + claimURL));
+  console.log(colors.white('Claim\t ') + colors.blue.underline(packpubDomain + '/packt/offers/free-learning'));
   console.log("\t");
 });
