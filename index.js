@@ -9,9 +9,9 @@ request('https://packtpub.com/packt/offers/free-learning', function (error, resp
     var $ = cheerio.load(body);
   } else {
     console.log(emoji.get('skull') + "  " + colors.red.bold("Snap!"));
-    console.log("Freebook.js can't get the book from packpub "+emoji.get('cry'));
+    console.log("Freebook.js can't get requested book from packpub "+emoji.get('cry'));
     console.log("\t");
-    
+
     if(error !== null) console.log(error);
     if(response) console.log("Status Code : " + response.statusCode);
 
